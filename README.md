@@ -12,7 +12,16 @@
 1. Crea una cuenta gratuita en [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 2. Configura un nuevo clúster.
 3. Crea una base de datos llamada `NoSQL_Intro` con una colección llamada `Users`.
+4. Crear el usuaruio para acceder y agregar la IP
+5. Instalar MongoDB 
 
 ### 2. Insertar documentos de muestra
-Inserta al menos tres documentos en la colección `Users`. Aquí tienes un ejemplo de documento:
-![image](https://github.com/user-attachments/assets/472a526e-fbce-4e51-8cfa-802a6ba4f187)
+Inserta tres documentos en la colección `Users`.
+```json
+{
+  "name": "John Doe",
+  "age": 29,
+  "interests": ["coding", "reading"],
+  "location": "USA"
+}
+```
