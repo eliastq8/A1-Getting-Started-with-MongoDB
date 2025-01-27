@@ -15,3 +15,4 @@
 
 ### 2. Insertar documentos de muestra
 Inserta al menos tres documentos en la colección `Users`. Aquí tienes un ejemplo de documento:
+![image](https://github.com/user-attachments/assets/472a526e-fbce-4e51-8cfa-802a6ba4f187)
