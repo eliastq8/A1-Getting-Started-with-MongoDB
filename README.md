@@ -28,8 +28,27 @@ Inserta tres documentos en la colección `Users`.
 ![image](https://github.com/user-attachments/assets/e091ca83-fdcb-4192-b8bc-d21c9bdaab2e)
 --
 ### 3. Realizar Consultas Básicas
+
+Query 1: Retrieve all documents
 ```json
 db.Users.find({})
 ```
 ![image](https://github.com/user-attachments/assets/3a0dc2dd-2d54-4380-bed2-c33b83266d65)
+
+Query 2: Retrieve all users with location as "USA"
+```json
+db.Users.find({ "location": "USA" })
+```
+![image](https://github.com/user-attachments/assets/42c6c3b0-fdae-44cd-ac4e-03711ed45fdd)
+
+Query 3: Update a user's interests
+```json
+db.Users.updateOne({ "name": "John Doe" }, { "$push": { "interests": "gaming" } })
+```
+![image](https://github.com/user-attachments/assets/e45aea48-293a-4454-a20d-c582b4b6a9a1)
+
+
 --
+### 4. Desafíos y Soluciones
+
+
