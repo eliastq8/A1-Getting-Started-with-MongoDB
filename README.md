@@ -26,3 +26,10 @@ Inserta tres documentos en la colección `Users`.
 }
 ```
 ![image](https://github.com/user-attachments/assets/e091ca83-fdcb-4192-b8bc-d21c9bdaab2e)
+--
+### 3. Realizar Consultas Básicas
+```json
+db.Users.find({})
+```
+![image](https://github.com/user-attachments/assets/3a0dc2dd-2d54-4380-bed2-c33b83266d65)
+--
