@@ -25,3 +25,4 @@ Inserta tres documentos en la colección `Users`.
   "location": "USA"
 }
 ```
+![image](https://github.com/user-attachments/assets/e091ca83-fdcb-4192-b8bc-d21c9bdaab2e)
